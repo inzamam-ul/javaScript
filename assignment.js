@@ -1,14 +1,16 @@
+// https://github.com/inzamam-ul/javaScript
+
 
 // convert kilometer to meter
 function kilometerToMeter(valueInKilometere) {
     if (valueInKilometere < 0 || typeof valueInKilometere == "string") {
         return "Input is not valid!!!!"; // Distance can't be negative
     }
-    return valueInKilometere * 1000; //we know 1 Kilometere equals to 1000 meter
+    return valueInKilometere * 1000; //we know 1 Kilometer equals to 1000 meter
 }
 
 var result = kilometerToMeter(7);
-console.log("Converted value is: ",result);
+console.log(result);
 
 
 
@@ -30,7 +32,7 @@ function budgetCalcultor(numberOfWatch, numberOfMobile, numberOfLaptop) {
 }
 
 var budget = budgetCalcultor(6, 12, 5);
-console.log("Total budget: ",budget);
+console.log(budget);
 
 
 
@@ -65,8 +67,8 @@ function hotelCost(days) {
     return cost;
 }
 
-var cost = hotelCost(22);
-console.log("Total cost: ",cost);
+var cost = hotelCost(12);
+console.log(cost);
 
 
 
@@ -92,5 +94,5 @@ function megaFriend(friendList) {
 
 var arr = ["Jahid", "Joshef", "Inzamam", "Sheal pondit"];
 var maxName = megaFriend(arr);
-console.log("The name of maximum length is: ",maxName);
+console.log(maxName);
 
